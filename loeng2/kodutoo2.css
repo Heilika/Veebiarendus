@@ -1,10 +1,12 @@
- h1 {
+ html {
    font-family: Arial, Helvetica, sans-serif;
 
  }
 
  form {
    box-sizing: border-box;
+  
+
  }
 
  /* Add padding to containers */
