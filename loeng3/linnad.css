@@ -1,0 +1,21 @@
+
+#eriline {
+    font-size: 20px;
+    color: green;
+}
+.paaris {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+li {
+    font-weight: bold;
+    color: gray;
+}
+
+.liivimaa {
+    background-color: bisque;
+}
