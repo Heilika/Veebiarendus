@@ -1,8 +1,8 @@
-body{
+body {
     background-color: darkcyan;
 }
 
-form{
+form {
     background-color: antiquewhite;
     width: 300px;
     margin-left: auto;
@@ -11,11 +11,12 @@ form{
     padding: 10px;
 }
 
-.vahe-yleval{
+.vahe-yleval {
     margin-top: 20px;
 
 }
-label{
+
+label {
     display: inline-block;
     width: 70px;
 }
