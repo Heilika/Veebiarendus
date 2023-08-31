@@ -9,7 +9,11 @@ body {
 
 .konteiner {
     background-color: lightsalmon;
-    width: 80%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .uudis-kuupaev {
@@ -29,12 +33,10 @@ li {
     color: violet;
 }
 
-image{
-    
-    width: 300px;
-    margin-left: auto;
+img{
+    width: 40%;
+    margin-left: 160px;
     margin-right: auto;
     margin-top: 30px;
     padding: 10px;
-    
 }
