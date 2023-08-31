@@ -9,7 +9,8 @@ body {
 
 .konteiner {
     background-color: lightsalmon;
-    width: 700px;
+    width: 80%; 
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -35,7 +36,8 @@ li {
 
 img{
     width: 40%;
-    margin-left: 160px;
+    margin-left: auto;
+    display:block;
     margin-right: auto;
     margin-top: 30px;
     padding: 10px;
