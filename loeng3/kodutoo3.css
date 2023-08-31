@@ -1,7 +1,6 @@
 html {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 
 .konteiner {
-    background-color: beige;
+    background-color: violet;
     width: 80%;
 
 }
@@ -18,4 +17,7 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     font-family: monospace;
+}
+body{
+    background-color: violet;
 }
