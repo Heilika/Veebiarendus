@@ -1,6 +1,6 @@
 html {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 body {
@@ -8,16 +8,33 @@ body {
 }
 
 .konteiner {
-    background-color: violet;
+    background-color: lightsalmon;
     width: 80%;
-
 }
 
 .uudis-kuupaev {
     font-size: 0.75rem;
-    text-transform: uppercase;
-    font-family: monospace;
 }
-body{
-    background-color: violet;
+
+.uudis-pealkiri {
+    font-size: 28px;
+    color: blue;
+}
+.uudis-sisu {
+    padding: 20px;
+}
+
+li {
+    font-weight: bold;
+    color: violet;
+}
+
+image{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    
 }
