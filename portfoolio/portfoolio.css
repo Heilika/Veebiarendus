@@ -1,22 +1,44 @@
-
 .kast {
 
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: whitesmoke;
     border-width: 1px;
     border-color: black;
     border-style: solid;
     margin: 1rem;
     padding: 3rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: start;
+
 }
 
+.konteiner{
+    display: flexbox;
+}
+
+.projektid {
+
+    display: flexbox;
+}
 
 header {
     width: 100%;
     background-color: whitesmoke;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
+img{
+    width: 70%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
 
-
+}
