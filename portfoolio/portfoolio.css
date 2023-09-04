@@ -1,0 +1,22 @@
+
+.kast {
+
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+
+header {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+
+
