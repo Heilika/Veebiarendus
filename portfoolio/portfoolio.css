@@ -8,19 +8,13 @@
     border-style: solid;
     margin: 1rem;
     padding: 3rem;
-    display: inline-block;
-    justify-content: center;
-    align-items: start;
 
-}
-
-.konteiner{
-    display: flexbox;
 }
 
 .projektid {
-
-    display: flexbox;
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
 }
 
 header {
@@ -33,12 +27,11 @@ header {
 
 }
 
-img{
+img {
     width: 70%;
-    display:flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     padding: 10px;
 
 }

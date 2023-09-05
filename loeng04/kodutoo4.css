@@ -1,0 +1,79 @@
+header {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+.tiitel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sisuala {
+    display: flex;
+    min-height: 700px;
+    height: 50vh;
+}
+
+.kylgpaan {
+    width: 30%;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+.artikkel {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+
+.jalus {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.reklaam-pilt {
+    width: 200px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+}
+
+div.scrollmenu a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
