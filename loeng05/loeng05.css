@@ -11,7 +11,7 @@ body {
 
 @media screen and (min-width: 600px) {
     body {
-        background-color: brown;
+        background-color: palevioletred;
         font-size: 2rem;
         color: white;
     }
