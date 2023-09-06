@@ -63,6 +63,8 @@ div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.scrollmenu a {
