@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: start;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header {
