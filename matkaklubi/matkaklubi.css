@@ -22,8 +22,6 @@
     color: #0B0B0B;
     font-size: 33px;
     line-height: 30px;
-
-
 }
 
 .pais-logo img {
@@ -31,6 +29,16 @@
     height: 64px;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.tiitel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media screen and (min-width: 1000px) {
