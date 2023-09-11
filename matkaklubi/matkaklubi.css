@@ -29,16 +29,78 @@
     height: 64px;
 }
 
-header {
-    width: 100%;
-    height: 100px;
+.paismenuu {
+    width: 751px;
+    line-height: 20px;
+    
+    font-weight: 800;
+    top: 62px;
+    left: 609px;
+    width: 751px;
+    height: 20px;
+    text-align: left;
+    letter-spacing: 2.67px;
+    opacity: 1;
+    
 }
 
-.tiitel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+
+
+.paismenuu:hover {
+    opacity: 1;
+
 }
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+
+}
+
+
 
 
 @media screen and (min-width: 1000px) {
