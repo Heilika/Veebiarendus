@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+.pais-logo img {
+    width: 66.72px;
+    height: 64px;
+}
+
 .pais-nimi {
     width: 126px;
     font-weight: 800;
@@ -24,88 +29,27 @@
     line-height: 30px;
 }
 
-.pais-logo img {
-    width: 66.72px;
-    height: 64px;
-}
-
-.paismenuu {
-    width: 751px;
-    line-height: 20px;
-    
-    font-weight: 800;
-    top: 62px;
-    left: 609px;
+.menu {
     width: 751px;
     height: 20px;
+    font-weight: 800;
     text-align: left;
     letter-spacing: 2.67px;
-    opacity: 1;
-    
-}
-
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .topnav-right {
-    float: right;
-  }
-
-
-
-.paismenuu:hover {
-    opacity: 1;
+    color: #000000;
+    font-size: 16.67px;
+    line-height: 16px;
 
 }
-/* unvisited link */
-a:link {
-    color: black;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
+
+/* mouse over link */
+a:hover {
     color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-
 }
-
-
 
 
 @media screen and (min-width: 1000px) {
-.paiskonteiner {
-    background-image: url(./assets/Hills@2x.png);
-}
+    .paiskonteiner {
+        background-image: url(./assets/Hills@2x.png);
+    }
 
 }
