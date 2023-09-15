@@ -8,6 +8,7 @@
     background-image: url(./assets/Hills.png);
     background-position: center;
     background-size: cover;
+    margin: 31px;
 }
 
 .pais {
@@ -66,6 +67,12 @@
     flex-wrap: wrap;
 }
 
+.rida2 {
+    display: flex;
+    color: #0B0B0B;
+    text-transform: uppercase;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +83,7 @@
     font-size: 39.57px;
     letter-spacing: 0px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .liblikas1 {
@@ -85,35 +93,68 @@
     margin-top: -40px;
 }
 
-.rida h1 {
+.rida2 h1 {
     font-size: 74.39px;
     text-transform: uppercase;
     font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .liblikas2 {
     width: 60px;
     height: 32px;
-    margin-top: -70px;
-    
+    margin-left: -70px;
+
 }
 
+.container {
+    padding-left: 30px;
+
+}
+
+.rida3 h3 {
+    font-size: 20.83px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+
 .button {
-    border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.button {
     background-color: #0B0B0B;
+    font-size: 12.5px;
+    width: 247px;
+    height: 58px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-decoration: none;
+
 }
 
+.pealkiri-pilt {
+    overflow: hidden;
+}
+
+.pealkiri-pilt .matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+.pealkiri.pilt .vari {
+    width: 1091px;
+    height: 87px;
+    margin-top: -40px;
+    margin-right: -152px;
+
+}
 
 .pealkiri-kastid {
     margin-top: 50px;
@@ -135,9 +176,12 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95%;}
+}
 
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1000px) {
     .paiskonteiner {
         background-image: url(./assets/Hills@2x.png);
     }
