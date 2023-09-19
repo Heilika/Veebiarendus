@@ -1,22 +1,30 @@
 
 function valjasta(tekst) {
-    const valjastaElement = document.getElementById(`ylesanded`)
+    const valjastaElement = document.getElementById('ylesanded')
     valjastaElement.innerHTML += tekst
 }
 
 function valjastaYlesanne(ylesanneObjekt) {
-    valjasta(`<div class="ylesanne">` + ylesanneObjekt.kirjeldus + '<bold>' + ylesanneObjekt.prioriteet +'<bold>' + `</div>`)
+    let valjund = ''
+    valjund += '<div class="ylesanne row">'
+    valjund +=      '<div class="col-8">' + ylesanneObjekt.kirjeldus + '</div>'
+    valjund +=      '<div class="col-4">' + ylesanneObjekt.prioriteet + '</div>'
+    valjund += '</div>'
+    valjasta(valjund);
 }
 
-function lisaUusYlesanne () {
-    const sisestusElement = document.getElementById("uus-ylesanne");
-    valjasta (`<div class="ylesanne">` + sisestusElement.value + `</div>`)
+function lisaUusYlesanne() {
+    const sisestusElement = document.getElementById('uus-ylesanne');
+    const sisestusPrioriteetElement = document.getElementById('uus-prioriteet');
+    const UusYlesanne = {
+        kirjeldus: sisestusElement.value,
+        prioriteet: sisestusPrioriteetElement.value,
+        tehtud: false
+    }
+    valjastaYlesanne(UusYlesanne)
     sisestusElement.value = ''
+    sisestusPrioriteetElement.value = ''
 }
-
-//valjasta(<h2>Tere Maailm</h2>)
-
-
 
 const ylesanne1 = {
     kirjeldus: 'jalutada koera',
@@ -35,11 +43,13 @@ const ylesanne3 = {
 }
 
 const ylesanded = [
-
+    ylesanne1,
+    ylesanne2,
+    ylesanne3
 ]
 
-for (let index=0; index< ylesanded.length; index++) {
-    valjasta(`<div class="ylesanne">` + ylesanded[index] + `</div>`)
+for (let index = 0; index < ylesanded.length; index++) {
+    valjastaYlesanne(ylesanded[index])
 }
 
 
