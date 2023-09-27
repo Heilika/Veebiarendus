@@ -21,7 +21,6 @@ input[type=text] {
 
 }
 
-
 input[type=email] {
     box-sizing: border-box;
     width: 100%;
@@ -31,9 +30,9 @@ input[type=email] {
 }
 
 #markus {
-    height: 175px;
+    height: 200px;
+    text-align: left;
 }
-
 
 label, input {
     display: block;

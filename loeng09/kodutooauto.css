@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
