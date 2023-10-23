@@ -6,7 +6,7 @@ lemmikvarv = prompt(`Sisesta enda lemmikvärv`)
 
 
 
-if (lemmikvarv == "roosa") {
+if (lemmikvarv == "Roosa") {
     lemmikvarvElement.innerHTML = `<div class="roosa">` + lemmikvarv + ` on mu lemmikvärv` + `</div>`;
 } else {
     lemmikvarvElement.innerHTML = `<div>` + lemmikvarv + ` ei ole minu lemmikvärv` + `</div>`;
